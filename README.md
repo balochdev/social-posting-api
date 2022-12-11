@@ -1,8 +1,11 @@
 # Post-It
-It is the backend code for Post-It Api.
+
+It is the backend code for Social Posting Api.
 
 ### Features
+
 - User Module
+
   - Register
   - Login
   - Follow User
@@ -18,22 +21,32 @@ It is the backend code for Post-It Api.
 
 - Admin Module
   - CRUD Operations
+
 ---
+
 ## Tools
+
 - Javascript
 - Nodejs
 - Express
 - MongoDB
+
 ## Installtion
+
 In the root directory run command
+
 ```
 npm install
 ```
+
 or
+
 ```
 yarn
 ```
+
 Add .env file in root directory, and should look like this
+
 ```
 # Node env
 NODE_ENV=development
@@ -56,12 +69,17 @@ JWT_ACCESS_EXPIRATION_DAYS=90
 # Number of days after which a refresh token expires
 JWT_REFRESH_EXPIRATION_DAYS=182
 ```
+
 ## Run Project
+
 In root directory run the command.
+
 ```
 yarn dev
 ```
+
 or
+
 ```
 npm run dev
 ```
